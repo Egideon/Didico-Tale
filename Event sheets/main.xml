@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>main</name>
+    <events>
+        <variable constant="0" name="falas" sid="420572433030276" static="0" type="number">0</variable>
+        <event-block sid="695624810466386">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="511085710399118" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="2" name="Set ignoring input" sid="844827560563578" type="didico">
+                    <param id="0" name="Input">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="193049922891054">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="895205842908359" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="749604449311066">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="505098180005185" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="328934433680526" type="System">
+                            <param id="0" name="Object to create">rostoBruxo</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">776</param>
+                            <param id="3" name="Y">312</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="790663002440941" type="System">
+                            <param id="0" name="Object to create">fala1</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">572</param>
+                            <param id="3" name="Y">332</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130629277526553">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="154096840340348" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="375319034778131" type="rostoBruxo" />
+                        <action id="-9" name="Destroy" sid="913714155135421" type="fala1" />
+                    </actions>
+                </event-block>
+                <event-block sid="906361387796449">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="321964352061312" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="477466992879873" type="System">
+                            <param id="0" name="Object to create">rotoDidico</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">74</param>
+                            <param id="3" name="Y">312</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="279381272611304" type="System">
+                            <param id="0" name="Object to create">Sprite</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">345</param>
+                            <param id="3" name="Y">329</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="994576977189618">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="833595045233742" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="172596343864557" type="rotoDidico" />
+                        <action id="-9" name="Destroy" sid="676427602054514" type="Sprite" />
+                    </actions>
+                </event-block>
+                <event-block sid="908899904018082">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="541987993764759" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="305617780087759" type="System">
+                            <param id="0" name="Object to create">rostoBruxo</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">776</param>
+                            <param id="3" name="Y">312</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="573266060213927" type="System">
+                            <param id="0" name="Object to create">Sprite2</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">532</param>
+                            <param id="3" name="Y">332</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="521530910123126">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="975896194700964" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="358687683442178" type="rostoBruxo" />
+                        <action id="-9" name="Destroy" sid="551277463848715" type="Sprite2" />
+                    </actions>
+                </event-block>
+                <event-block sid="311197089701683">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="665841060894952" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="815030554130688" type="System">
+                            <param id="0" name="Object to create">rotoDidico</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">74</param>
+                            <param id="3" name="Y">312</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="298022950090329" type="System">
+                            <param id="0" name="Object to create">Sprite3</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">345</param>
+                            <param id="3" name="Y">329</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="153917361250609">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="419935346115045" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="677999111033064" type="rotoDidico" />
+                        <action id="-9" name="Destroy" sid="523054433053699" type="Sprite3" />
+                    </actions>
+                </event-block>
+                <event-block sid="489345606581527">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="154596345442508" type="System">
+                            <param id="0" name="First value">falas</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="387023600235851" type="Sprite4" />
+                        <action behavior="8Direction" id="2" name="Set ignoring input" sid="671450947803934" type="didico">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="415322518946075" type="Text2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="358214713216638" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="147122831163387" type="Text2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="955968951454518">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="773122433524426" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="959986809160251" type="triggerEntrar">
+                    <param id="0" name="Pin to">didico</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="659010422402946" type="animacaoDidico">
+                    <param id="0" name="Pin to">didico</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Car" id="8" name="Set enabled" sid="864694268746436" type="carro">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="510777635694151">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="687008569319971" type="didico" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="394817522949523" type="animacaoDidico">
+                    <param id="0" name="Animation">&quot;andando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="923398308537161">
+            <conditions>
+                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="597349867914227" type="didico" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="860204677181609" type="animacaoDidico">
+                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="756335494148300">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="342298300397820" type="Keyboard">
+                    <param id="0" name="Key">69 (E)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="938992614928341">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="689859559870034" type="triggerEntrar">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="926265413501573" type="animacaoDidico">
+                            <param id="0" name="Object">carro</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="983044692027402" type="animacaoDidico">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="447028360129561" type="didico">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="524194886842088" type="carro">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Set enabled" sid="660566677920550" type="carro">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="549518834784321" type="didico">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="786941542946371" type="didico">
+                            <param id="0" name="Pin to">carro</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="841243485304593" type="didico">
+                            <param id="0" name="Instance variable">andando</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225101068825171">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="331447347390640" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="994761995742402" type="animacaoDidico">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="379421557664260" type="didico">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="203620954890547" type="carro">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Set enabled" sid="179237013600726" type="carro">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="516892825249404" type="didico">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Pin" id="1" name="Unpin" sid="550185893574851" type="didico" />
+                        <action id="-13" name="Set boolean" sid="621668050044660" type="didico">
+                            <param id="0" name="Instance variable">andando</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="174383144243847">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="453118994650045" type="didico">
+                    <param id="0" name="Instance variable">andando</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="295465088816179" type="triggerEntrar">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="998608330087242">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="787507346015188" type="didico">
+                    <param id="0" name="Instance variable">andando</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="348525968281490" type="triggerEntrar">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="990541200491511">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="530879954599680" type="animacaoDidico">
+                    <param id="0" name="Object">triggerObjetivo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="566005877494128" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="249186098457142">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="572570490066065" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="127728780059489" type="System">
+                    <param id="0" name="Variable">falas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="872969838423618">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="139473943428857" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="291482047540188" type="Audio">
+                    <param id="0" name="Audio file">05_-_i_wouldnt1 (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

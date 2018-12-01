@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evMenu</name>
+    <events>
+        <event-block sid="510488271821762">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="732741083219765" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="153610540087821" type="Audio">
+                    <param id="0" name="Audio file">menu (online-audio-converter.com)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="945254963958510">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="167457659978854" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Iniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="590422983036369" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+                <action id="33" name="Stop all" sid="324791931745764" type="Audio" />
+            </actions>
+        </event-block>
+        <event-block sid="596078819098110">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="576455547961801" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">creditos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="946449184426256" type="System">
+                    <param id="0" name="Layout">creditos</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
